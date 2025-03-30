@@ -33,7 +33,10 @@
         <dd>The dog is a domesticated descendant of the wolf.</dd>
     </dl>
 
-    <h2>Tables</h2>
+    <br/>
+    <br/>
+
+    <h2 id="tables">Tables</h2>
     <table border="3">
         <tr>
             <td>Column 1</td>
@@ -53,24 +56,111 @@
     </table>
     <br>
     <table>
-        <tr>
+        <tr bgcolor="lightblue">
             <th></th>
             <th>Saturday</th>
             <th>Sunday</th>
         </tr>
         
         <tr>
-            <th>Tickets sold:</th>
+            <th bgcolor="lightpink">Tickets sold:</th>
             <td align='center'>120</td>
             <td align='center'>135</td>
         </tr>
         
         <tr>
-            <th>Total sales:</th>
+            <th bgcolor="lightpink">Total sales:</th>
             <td align='center'>$600</td>
             <td align='center'>$675</td>
         </tr>
         </table>
+
+        <br/>
+        <br/>
+
+        <table width="400" height="120" bgcolor="lightgreen" border="1">
+            <tr bgcolor="lightgrey">
+                <th colspan="2">Dancing Course Fee</th>
+            </tr>
+            
+            <tr>
+                <th>Adult, 18+ years-old</th>
+                <td align="center">$250</td>
+            </tr>
+
+            <tr>
+                <th>Teen, between 10 and 17 years-old</th>
+                <td align="center">$135.55</td>
+            </tr>
+            
+        </table>
+
+        <br/>
+        <br/>
+
+        <h2 id="images">Images</h2>
+        <img src="images/bird.jpg" alt="image of bird" width="300px" title="a beautiful bird">
+        <img src="images/bird.jpg" alt="image of bird" width="300px" title="a beautiful bird">
+        <figure>
+            <img src="images/bird.jpg" alt="image of bird" width="300px" title="a beautiful bird">
+            <img src="images/bird.jpg" alt="image of bird" width="300px" title="a beautiful bird">
+        <figcaption>I love birds</figcaption>
+        </figure>
+
+        <br/>
+        <br/>
+
+        <h2 id="links">Links</h2>
+        <p>Link to open an external website</p>
+        <p>Vist <a href="https://www.qcc.cuny.edu/" target="_blank" rel="noopener noreferrer"> QCC webside </a>for more information</p>
+        <p>Send an email to: <a href="mailto:profwu@college.edu">Professor Wu</a></p>
+        <p>Email professor Wu <a herf="mailto:hwu@qcc.cuny.edu">by email</a></p>
+
+        <pm><em>Link from an image</em></pm>
+        <figure>
+            <a href="https:/www.nyc.gov/" target="_blank" rel="noopener noreferrer">
+            <img src="images/bird.jpg" alt="image of bird" width="100px" title="a beautiful bird"></a>
+        </figure>
+
+        <br/>
+        <br/>
+
+        <p id="places"><em>Link to an local webpage></em></p>
+        <p>Places to visit in NYC:</p>
+
+        <ul>
+            <li><a href="central park.html">Central Park</a></li>
+            <li><a href="time_square.html">Time Square</a></li>
+        </ul>
+
+        <br/>
+
+        <pm><em>image mapping</em></pm>
+        <!--target map-->
+        <figure>
+            <img src="images/bird.jpg" alt="image of bird" width="500px" height="400px" title="a beautiful bird" 
+            usemap="#the bird">
+        <figcaption>I love birds</figcaption>
+        </figure>
+
+        <!--define map-->
+        <map name="the bird">
+        <area shape="rect" coords="200,150,300,250" href="central park.html" alt="link to Central Park webpage"></map>
+
+        <br/>
+
+        <p><em>Link to a specific section of the same webpage</em></p>
+        <nav>
+            <a href="#">Go to the beginning</a>
+            <a href="#tables">Tables</a>
+            <span>|</span>
+            <a href="#links">Links</a>
+            <span>|</span>
+            <a href="#images">Images</a>
+            <span>|</span>
+        </nav>
+
+
 
 </body>
 </html>
