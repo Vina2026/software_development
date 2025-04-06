@@ -417,5 +417,18 @@ html{scroll-behavior: smooth;}
 }
 
 
+/* lab exercise*/
+.exercisecontainer {
+    height: 500px;
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
 
+.img1, .img2, .img3 {
+    width: 30%;
+    height: 500px;
+    border: solid gray 1px;
+}
 
