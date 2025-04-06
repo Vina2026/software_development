@@ -214,3 +214,208 @@ figcaption{margin-bottom: 50px;}
     text-decoration: underline;
     background-color: crimson;
 }
+
+/* navigation tabs*/
+.navbar {
+    width: 300px;
+}
+
+.navbar li {
+    list-style-type: none;
+    margin-left: -20px;
+}
+
+.navbar li a {
+    background-color: purple;
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar li a:hover {
+    background-color: lightcyan;
+    color: purple;
+    text-decoration: underline;
+    font-weight: 900px;
+    border: 1px solid purple;
+}
+
+html{scroll-behavior: smooth;}
+*{box-sizing: border-box;}
+
+.navbarhorizontal {
+    background-color: orangered;
+}
+
+.navbarhorizontal a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    width: 24.5%;
+    text-align: center;
+    padding: 20px;
+}
+
+.navbarhorizontal a:hover {
+    background-color: black;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+/* colors */
+.rgbcontainer .hexcontainer {
+    border: solid gray 1px;
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    padding: 20px;
+}
+
+.rgbcontainer div, .hexcontainer div{
+    border: solid green 1px;
+    width: 100px;
+    height: 20px;
+}
+
+.rgbcontainer div:nth-child(1) {
+    background-color: rgba(33, 100, 100);
+}
+
+.rgbcontainer div:nth-child(2) {
+    background-color: rgba(190, 20, 150);
+}
+
+.rgbcontainer div:nth-child(3) {
+    background-color: rgba(10, 40, 219);
+}
+
+.hexcontainer div:nth-child(1) {
+    background-color: #D2641E;
+}
+
+.hexcontainer div:nth-child(2) {
+    background-color: #384948;
+}
+
+.hexcontainer div:nth-child(3) {
+    background-color: #e1d1f4;
+}
+
+/* positions*/
+.imgcontainer {
+    width: 50%;
+    box-shadow: 2px 2px 5px #D2641E;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    left: 100px;
+}
+
+.imgtitle {
+    background-color: rgba(190, 20, 150, 0.8);
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    left: 20px;
+    padding: 2%;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.fixedtabs {
+    position: fixed;
+    top: 0px;
+    width: 100px;
+}
+
+/*background image*/
+.imgbackground, .imgbackground2 {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+.imgbackground div, .imgbackground2 div {
+    width: 30%;
+    height: 200px;
+    border: solid gray 1px;
+}
+
+.imgbackground div:nth-child(1){
+    background-image: linear-gradient(red, darkblue);
+}
+
+.imgbackground div:nth-child(2){
+    background-image: linear-gradient(to bottom left, red, darkblue);
+}
+
+.imgbackground div:nth-child(3){
+    background-image: linear-gradient(to right, red, darkblue);
+}
+
+.imgbackground2 div:nth-child(1){
+    background-image: linear-gradient(to top right, red, darkblue, yellow);
+}
+
+.imgbackground2 div:nth-child(2){
+    background-image: linear-gradient(red, darkblue, yellow, purple);
+}
+
+.imgbackground2 div:nth-child(3){
+    background-image: linear-gradient(red 20%, darkblue 60%, yellow 30%, purple 80%);
+}
+
+/* hero image*/
+.heroimgcontainer {
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    border: solid gray 1px;
+    background-image: linear-gradient(to top, rgba(255, 0, 0, 0.5), rgba(0,0,210,0.3)) ,url(images/sky.jpeg);
+    background-size: 800px 500px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.herocontent {
+    background-color: rgba(50,50,50,0.8);
+    position: absolute;
+    top: 10%;
+    bottom: 5%;
+    right: 10%;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px black;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.5em;
+}
+.herocontent-title {
+    color: rgba(220, 200, 200, 0.9);
+}
+
+.herocontent-intro {
+    margin-top: -30px;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+.herocontent-link{
+    background-color: darkblue;
+    color: white;
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.herocontent-link:hover {
+    background-color: rgba(220, 200, 200, 0.9);
+    color: crimson;
+    font-weight: bolder;
+}
+
+
+
+
