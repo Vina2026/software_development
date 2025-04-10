@@ -265,8 +265,8 @@ html{scroll-behavior: smooth;}
 }
 
 /* colors */
-.rgbcontainer .hexcontainer {
-    border: solid gray 1px;
+.rgbcontainer, .hexcontainer {
+    border: solid gray 1px;   
     display: flex;
     justify-content: space-around;
     width: 500px;
@@ -328,7 +328,7 @@ html{scroll-behavior: smooth;}
 .fixedtabs {
     position: fixed;
     top: 0px;
-    width: 100px;
+    width: 100%;
 }
 
 /*background image*/
