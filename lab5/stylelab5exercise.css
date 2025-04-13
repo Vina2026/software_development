@@ -97,7 +97,7 @@ nav ul li a:hover {
     flex-direction: column;
 }
 
-/* Featured plants*/
+/* Featured plants & Service section*/
 .featured-plants, .services {
     padding: 50px 5%;
 }
