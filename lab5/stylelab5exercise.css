@@ -118,7 +118,7 @@ nav ul li a:hover {
 .card {
     flex: 1;
     max-width: 33%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
