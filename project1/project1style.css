@@ -233,3 +233,78 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+/* Media Queries*/
+/* For large screens*/
+@media (max-width: 1024px) {
+    .card {
+        max-width: 45%;
+        margin: 15px auto;
+    }
+
+    .card-container {
+        justify-content: center;
+    }
+
+    .main-text {
+        font-size: 16px;
+    }
+
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+/* For medium screens */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+
+    .card {
+        max-width: 100%;
+        margin: 15px 0;
+    }
+
+    .Popular-title {
+        font-size: 24px;
+    }
+
+    .main-text {
+        font-size: 15px;
+        padding: 5px;
+    }
+
+    .carousel-item img {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+}
+
+/* For small screens */
+@media (max-width: 480px) {
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    .card-content p {
+        font-size: 14px;
+    }
+
+    .carousel-item img {
+        height: 250px;
+    }
+
+    .main-text {
+        font-size: 14px;
+    }
+
+    .Popular-title {
+        font-size: 20px;
+    }
+}
