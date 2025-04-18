@@ -27,6 +27,7 @@ h1 {
 }
 
 
+
 /* Navigation Styles */
 nav {
     background-color: rgb(43, 33, 24);
@@ -174,7 +175,7 @@ table {
 }
 
 table th {
-    background-color: rgb(212, 175, 55); 
+    background-color: #d4af37;
     color: white;
     text-align: left;
     padding: 12px;
@@ -186,7 +187,7 @@ table td {
 }
 
 table tr:nth-child(even) {
-    background-color: rgb(252, 242, 214); 
+    background-color: rgb(249, 242, 222); 
 }
 
 
@@ -284,13 +285,15 @@ table tr:nth-child(even) {
 }
 
 
-/* Footer Styles */
-footer {
-    background-color: rgb(43, 33, 24);
+/* Footer */
+.footer1 {
+    background-color: rgb(43, 33, 24); 
     color: white;
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+    margin-left: 83px;
+    margin-right: 83px;
 }
 
 footer a {
