@@ -133,3 +133,15 @@ else:
 # Lab10 exercise
 print ('\n ------ Lab10 Exercise   ------')
 
+colors = ['red', 'orange', 'olive', 'magenta', 'green']
+color_match = False
+
+check_color = input("Enter a color to check: ").strip().lower()
+
+for color in colors:
+    if check_color == color:
+        color_match = True
+        print(f"{check_color} color is in the list")
+        break
+else:
+    print(f"{check_color} color iS not in the list")
