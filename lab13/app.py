@@ -83,7 +83,7 @@ def users():
             db.session.commit()
 
         # message using flash
-            flash (f"{request.form['employee_name']} + 'Successfully added!'")
+            flash (f"{request.form['employee_name']} 'Successfully added!'")
 
         except:
             flash("Fail to insert data! Try again")
