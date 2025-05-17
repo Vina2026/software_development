@@ -1,0 +1,112 @@
+:root {
+    --primary-color: rgb(52, 152, 219);
+    --secondary-color: rgb(46, 204, 113);
+    --accent-color: rgb(243, 156, 18);
+    --dark-color: rgb(44, 62, 80);
+    --light-color: rgb(236, 240, 241);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.page-header {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/donate.avif');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 120px 0;
+    text-align: center;
+}
+
+.section-heading {
+    border-left: 5px solid var(--secondary-color);
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.form-control:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 0.25rem rgba(46, 204, 113, 0.25);
+}
+
+.form-label {
+    font-weight: 500;
+}
+
+.btn-success {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-outline-secondary {
+    color: var(--dark-color);
+    border-color: var(--dark-color);
+}
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 20px 0;
+}
+
+/* Simple animation for success message */
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.donation-info {
+    background-color: rgba(46, 204, 113, 0.1);
+    border-left: 4px solid var(--secondary-color);
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.donation-step {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.step-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .page-header {
+        padding: 40px 0;
+    }
+    
+    h1 {
+        font-size: 2rem;
+    }
+}
+

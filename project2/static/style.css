@@ -1,0 +1,182 @@
+:root {
+    --primary-color: rgb(52, 152, 219);
+    --secondary-color: rgb(46, 204, 113);
+    --accent-color: rgb(243, 156, 18);
+    --dark-color: rgb(44, 62, 80);
+    --light-color: rgb(236, 240, 241);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.navbar {
+    background-color: var(--primary-color);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white !important;
+}
+
+.navbar-nav {
+    margin-right: 0 !important;
+}
+
+.nav-link {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('images/other-giving.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 200px 0px;
+    text-align: center;
+}
+
+.section-heading {
+    border-left: 5px solid var(--primary-color);
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+.btn-success {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+}
+
+.btn-warning {
+    background-color: var(--accent-color);
+    border-color: var(--accent-color);
+    color: white !important;
+}
+
+ /* animation for banner */
+ @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.banner {
+    animation: fadeIn 1.5s ease-out;
+    background-color: var(--accent-color);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+.about-us-section {
+    background-color: var(--light-color);
+    color: var(--dark-color);
+}
+
+.about-heading {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.about-text {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: justify;
+    margin-left: 30px;
+}
+
+.about-us-section img {
+    border-radius: 10px;
+}
+
+
+footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 20px 0px;
+}
+
+.newsletter-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .newsletter-input {
+    padding: 8px;
+    width: 70%;
+    border: none;
+    border-radius: 4px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+
+  }
+  
+  .subscribe-btn {
+    padding: 8px 12px;
+    background-color: var(--secondary-color);
+    color: rgb(43, 33, 24);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 60px;
+  }
+  
+  .subscribe-btn:hover {
+    background-color: rgb(230, 195, 75);
+  }
+
+ /* Right column - Social Links */ 
+ .footer-right { 
+    flex: 1; 
+    min-width: 100px; 
+    text-align: right; 
+    margin-right: 0px !important; 
+  } 
+
+  footer a:hover { 
+    text-decoration: underline; 
+  } 
+
+  .social-icon { 
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 8px; 
+    margin-left: 25px;
+    color: rgb(212, 175, 55); 
+    text-decoration: none; 
+  } 
+  
+  .social-img { 
+    width: 50px; 
+    height: 50px; 
+    margin-right: 8px; 
+  }
+

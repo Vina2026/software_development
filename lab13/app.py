@@ -5,6 +5,8 @@ lab 13, Flask application
 
 from flask import Flask, render_template, redirect, url_for, request, session, flash
 from flask_sqlalchemy import SQLAlchemy
+from werkzeug.security import generate_password_hash, check_password_hash
+
 
 
 """ create an object 'app' from the Flask module. 
