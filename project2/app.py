@@ -8,11 +8,11 @@ from sqlalchemy.sql import func
 
 
 app = Flask(__name__)
-app.secret_key = 'your_secret_key_here'  # Added secret key for flash messages and sessions
+app.secret_key = '12345'  #  secret key for flash messages and sessions
 
 
 # Connecting to PostgreSQL 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:semsem123@localhost/donation'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:semsem123@localhost/COG'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 # Initialize database
@@ -129,6 +129,7 @@ def view_cart():
     
     cart_items = db.session.query(Item, Cart).join(Cart).filter(Cart.user_id == session['user_id']).all()
     return render_template('cart.html', cart_items=cart_items)
+
 
 @app.route('/add-to-cart/<int:item_id>')
 def add_to_cart(item_id):
